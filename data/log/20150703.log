@@ -1,0 +1,219 @@
+[2015-07-03 11:30:53] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_user' doesn't exist
+select * from `qdm163903679_db`.`shopnc_ihuyi_user`
+[2015-07-03 11:30:53] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_sms' doesn't exist
+INSERT INTO `qdm163903679_db`.`shopnc_ihuyi_sms`(content , mobile,todate,SESSION_user) VALUES ('您的验证码是：772473。请不要把验证码泄露给其他人。', '13927179609','2015-07-03 11:30:53','');
+[2015-07-03 11:30:55] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_user' doesn't exist
+select * from `qdm163903679_db`.`shopnc_ihuyi_user`
+[2015-07-03 11:30:55] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_sms' doesn't exist
+INSERT INTO `qdm163903679_db`.`shopnc_ihuyi_sms`(content , mobile,todate,SESSION_user) VALUES ('您的验证码是：249935。请不要把验证码泄露给其他人。', '13927179609','2015-07-03 11:30:55','');
+[2015-07-03 11:39:13] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_user' doesn't exist
+select * from `qdm163903679_db`.`shopnc_ihuyi_user`
+[2015-07-03 11:39:13] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_sms' doesn't exist
+INSERT INTO `qdm163903679_db`.`shopnc_ihuyi_sms`(content , mobile,todate,SESSION_user) VALUES ('您的验证码是：790737。请不要把验证码泄露给其他人。', '13542413006','2015-07-03 11:39:13','');
+[2015-07-03 11:39:38] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_user' doesn't exist
+select * from `qdm163903679_db`.`shopnc_ihuyi_user`
+[2015-07-03 11:39:38] /shop/index.php ( act=ihuyi&op=register ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_sms' doesn't exist
+INSERT INTO `qdm163903679_db`.`shopnc_ihuyi_sms`(content , mobile,todate,SESSION_user) VALUES ('您的验证码是：640802。请不要把验证码泄露给其他人。', '13542413006','2015-07-03 11:39:38','');
+[2015-07-03 11:57:34] /sun/index.php?act=ihuyi&op=index ( act=ihuyi&op=index ) 
+ERR: Db Error: Table 'qdm163903679_db.shopnc_ihuyi_user' doesn't exist
+select * from `qdm163903679_db`.`shopnc_ihuyi_user`
+[2015-07-03 11:58:34] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 11:58:34] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 11:58:44] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 11:58:44] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 11:59:06] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 11:59:06] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:02:17] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:02:17] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:02:29] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:02:29] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:07:28] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:07:28] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:07:30] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:07:30] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:11:38] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:11:38] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:12:11] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:12:11] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:13:22] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:13:22] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:13:24] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:13:24] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+[2015-07-03 12:51:00] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_user' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_user` ( `ihuyi_user_name`  varchar(20) NULL , `ihuyi_user_password`  varchar(36) NULL  ) ;
+[2015-07-03 12:51:00] /sun/index.php?act=ihuyi&op=userSet ( act=ihuyi&op=userset ) 
+ERR: Db Error: Table 'shopnc_ihuyi_sms' already exists
+CREATE TABLE `qdm163903679_db`.`shopnc_ihuyi_sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `mobile` varchar(15) DEFAULT NULL,
+  `todate` varchar(20) DEFAULT NULL,
+  `return_id` int(11) DEFAULT NULL,
+  `return_code` int(11) DEFAULT NULL,
+  `return_content` varchar(100) DEFAULT NULL,
+  `session_user` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
